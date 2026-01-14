@@ -1,0 +1,46 @@
+# Environment and secrets
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Data files (too large for version control)
+data/raw/
+data/intermediate/
+data/processed/
+
+# Results (generated outputs)
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Power BI files (may be large)
+dashboards/powerbi_assets/*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
